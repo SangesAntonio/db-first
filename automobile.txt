@@ -1,24 +1,25 @@
 Automobile usata.
 
-Colonne                Tipo di dato    Attributi  Indici
+Colonne                Data type    Attributi                        Indici
 
-Id                      
-marca
-nome
-anno_immatricolazione
-km-percorsi 
-descrizione_vettura
-colore
-proprietario_corrente
-incidentata
-motorizzazione
-alimentazione
-consumi_per_litro
-emissioni
-foto_vettura
-ruote_montate
-ultima_revisione
-tagliandi_effettuati
+Id                     INT          UNIQUE,NOT_NULL,AUTO_INCREMENT   PRIMARY_KEY
+marca                  VAR_CHAR(30) NOT_ULL
+nome                   VAR_CHAR(30) NULL
+anno_immatricolazione  VAR_CHAR(10) NULL,DEFAULT('sconosciuto')
+targa                  VAR_CHAR(10) NULL,DEFAULT('sconosciuta')
+km-percorsi            FLOAT(6,3)   NOT_NULL
+descrizione_vettura    TEXT         NULL
+colore                 VAR_CHAR(20) NULL
+proprietario_corrente  VAR_CHAR(30) NULL,DEFAULT('sconosciuto')
+incidentata            BOOL(TINYINT(1)) NULL,DEFAULT('sconosciuto')
+motorizzazione         VAR_CHAR(30) NULL,DEFAULT('sconosciuta')
+alimentazione          VAR_CHAR(20) NULL,DEFAULT('sconosciuta')
+consumi_per_litro      VAR_CHAR(50) NULL,DEFAULT('sconosciutI')
+emissioni              VAR_CHAR(20) NULL,DEFAULT('sconosciute')
+foto_vettura           VAR_CHAR(255) NULL,DEFAULT('non presenti')
+ruote_montate          VAR_CHAR(30) NULL,DEFAULT('sconosciute')
+ultima_revisione       DATE         NULL,DEFAULT('sconosciuta')
+tagliandi_effettuati   TEXT         NULL
 
 
 
