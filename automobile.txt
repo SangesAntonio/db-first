@@ -1,0 +1,27 @@
+Automobile usata.
+
+Colonne                Tipo di dato    Attributi  Indici
+
+Id                      
+marca
+nome
+anno_immatricolazione
+km-percorsi 
+descrizione_vettura
+colore
+proprietario_corrente
+incidentata
+motorizzazione
+alimentazione
+consumi_per_litro
+emissioni
+foto_vettura
+ruote_montate
+ultima_revisione
+tagliandi_effettuati
+
+
+
+
+
+
